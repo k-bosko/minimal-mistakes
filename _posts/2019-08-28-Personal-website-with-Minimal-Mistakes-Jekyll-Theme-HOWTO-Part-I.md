@@ -6,7 +6,7 @@ tags:
   - minimal-mistakes
 excerpt: "How to install minimal-mistakes Jekyll theme using Docker container"
 header:
-  teaser: /assets/images/joel-filipe-small-darker.jpg
+  teaser: /assets/images/thumbnails/joel-filipe-thumb-800.jpg
 ---
 
 _This is the first part of the website HOWTO series. See the second part [here](/Personal-website-with-Minimal-Mistakes-Jekyll-Theme-HOWTO-Part-II)_

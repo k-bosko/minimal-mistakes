@@ -9,7 +9,7 @@ tags:
   - INSIGHT
 date: August 29, 2019
 header:
-  teaser: /assets/images/insight-data-science.png
+  teaser: /assets/images/thumbnails/insight-data-science-thumb-800.png
 image:
   feature: insight-data-science.png
   credit: "Insight Data Science"

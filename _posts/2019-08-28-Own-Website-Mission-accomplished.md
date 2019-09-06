@@ -5,7 +5,7 @@ tags:
   - minimal-mistakes
   - website
 header:
-  teaser: /assets/images/my_website.png
+  teaser: /assets/images/thumbnails/my-website-thumb-800.png
 
 ---
 

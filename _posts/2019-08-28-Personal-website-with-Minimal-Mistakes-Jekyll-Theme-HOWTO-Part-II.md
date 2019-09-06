@@ -9,7 +9,7 @@ tags:
 excerpt: "How to customize the Jekyll minimal-mistakes theme for personal website"
 date: August 28, 2019
 header:
-  teaser: /assets/images/joel-filipe-small-darker.jpg
+  teaser: /assets/images/thumbnails/joel-filipe-thumb-800.jpg
 
 ---
 _This is the second part of the website HOWTO series. See the first one on Docker [here](/Personal-website-with-Minimal-Mistakes-Jekyll-Theme-HOWTO-Part-I)_
@@ -106,7 +106,7 @@ img {
 $link-color: #007bb6 !default;
 ```
 -----------------------------------------------------
-### HOW TO CHANGE SIZE OF POST TITLE? 
+### HOW TO CHANGE SIZE OF POST TITLE ON HOME PAGE? 
 
 * Navigate to `_archive.scss`
 * Add font-size to `.archive__item`, e.g.:
