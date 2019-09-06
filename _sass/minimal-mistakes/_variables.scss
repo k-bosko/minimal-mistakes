@@ -13,14 +13,14 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
+$serif: "PT Serif", Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+  "Helvetica Neue", "Lucida Grande", sans-serif, "PT Sans Narrow" !default;
+$monospace: "Andale Mono", Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
-$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$helvetica: Arial, Helvetica, "Helvetica Neue", sans-serif !default;
 
 /* serif typefaces */
 $georgia: Georgia, serif !default;
@@ -30,7 +30,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 $arial: Arial, sans-serif !default;
 
-$global-font-family: $helvetica, Arial  !default;
+$global-font-family: $helvetica, Arial !default;
 $header-font-family: $helvetica, Arial !default;
 $caption-font-family: $helvetica, Arial !default;
 
@@ -55,7 +55,7 @@ $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
 $background-color: #fff !default;
-$code-background-color: #fafafa !default;
+$code-background-color: rgba(220, 220, 220, .5) !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
 $muted-text-color: mix(#fff, $text-color, 35%) !default;
@@ -111,7 +111,8 @@ $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
 
 /* syntax highlighting (base16) */
-$base00: #263238 !default;
+//$base00: #263238 !default;
+$base00: #002635 !default;
 $base01: #2e3c43 !default;
 $base02: #314549 !default;
 $base03: #546e7a !default;

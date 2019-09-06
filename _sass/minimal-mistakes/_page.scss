@@ -49,6 +49,11 @@
       width: 100%;
       clear: both;
     }
+    .page__date {
+      font-size: $type-size-6;
+      position: relative;
+      
+    }
   }
 }
 
@@ -67,6 +72,7 @@
 }
 
 .page__content {
+  margin-top: 1.5em;
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
